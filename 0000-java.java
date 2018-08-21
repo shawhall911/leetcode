@@ -43,3 +43,8 @@ LinkedList implements stack
 q.push(Object o)
 q.pop()
 q.peek() - return top of stack
+
+HashMap - (k, v)
+HashSet - set
+TreeMap - ordered k
+all do: contains(Object) get(); put()
