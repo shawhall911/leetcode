@@ -1,3 +1,10 @@
+String s; s.length();
+int[] a; a.length;
+String[] sa; sa.length;
+ArrayList.size();
+
+
+
 ArrayList<Integer> arr - take Integer not int
   init: 
   Dont' be confused with 
