@@ -1,7 +1,9 @@
 String s; s.length();
+ArrayList.size();
+
 int[] a; a.length;
 String[] sa; sa.length;
-ArrayList.size();
+
 
 
 
@@ -44,6 +46,13 @@ Deque<Integer> q = new LinkedList<Integer>();
   q.offerLast(Object o)
   q.pollFirst() 
   q.pollLast()
+
+PriorityQueue<Object> pq = new PriorityQueue<>(); //default minheap, find largest K elements
+PriorityQueue<Integer> pq = new PriorityQueue(10, Collections.reverseOrder()); //max heap
+  pq.add(Object o);
+  pq.poll();
+  pq.peek();
+  pq.remove(Object o); //not O(logn)
   
 Stack<Intger> stack = new LinkedList<Integer>();
 LinkedList implements stack
@@ -53,5 +62,6 @@ q.peek() - return top of stack
 
 HashMap - (k, v)
 HashSet - set
-TreeMap - ordered k
+TreeMap - ordered key R/B tree, O(log) insert, delete, update
+LinkedHashMap - maintain insert order
 all do: contains(Object) get(); put()
